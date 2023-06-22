@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    --softOrange: hsl(35, 77%, 62%);
+    --softRed: hsl(5, 85%, 63%);
+    --offWhite: hsl(36, 100%, 99%);
+    --grayishBlue: hsl(233, 8%, 79%);
+    --darkGrayishBlue: hsl(236, 13%, 42%);
+    --veryDarkBlue: hsl(240, 100%, 5%);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 2%;
+}
+p {
+    font-size: 15px;
+}
+.nav-bar, ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links {
+    width: 40%;
+}
+ul {
+    list-style: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Three columns of equal width */
+    
+    grid-gap: 5px; /* Gap between grid cells */
+  }
+  .hero-img {
+    width: 1000px;
+  }
+  .hero-image {
+    grid-column: 1 / span 2; /* Image spans three columns */
+    grid-row: 1 / span 2; /* Image spans two rows */
+  }
+.hero-text {
+    display: flex;
+}
