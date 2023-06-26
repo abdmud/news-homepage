@@ -36,6 +36,7 @@ ul {
     display: grid;
     grid-template-columns: 1.5fr 0.75fr; /* Three columns of equal width */
     margin-top: 3%;
+    border: solid 1px red;
   }
 .grid {
     width: 900px;
@@ -90,7 +91,9 @@ ul {
     letter-spacing: 3px;
 }
 .cards {
-    margin-top: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
 }
 .card {
     border: solid 1px black;
