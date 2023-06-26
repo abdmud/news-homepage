@@ -34,17 +34,34 @@ ul {
 }
 .container {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* Three columns of equal width */
-    
-    grid-gap: 5px; /* Gap between grid cells */
+    grid-template-columns: 1.5fr 0.75fr; /* Three columns of equal width */
+    margin-top: 3%;
   }
-  .hero-img {
-    width: 1000px;
-  }
-  .hero-image {
-    grid-column: 1 / span 2; /* Image spans three columns */
-    grid-row: 1 / span 2; /* Image spans two rows */
-  }
+.grid {
+    width: 900px;
+    height: 500px;
+}
+.hero-image, .hero-img {
+    width: 900px;
+}
 .hero-text {
     display: flex;
+    width: 100%;
+}
+.paragraph {
+    width: 70%;
+}
+.col-grid {
+    background-color: var(--veryDarkBlue);
+    color: var(--offWhite);
+    height: 500px;
+    padding: 0 3%;
+}
+.new-title {
+    font-size: 40px;
+    color: var(--softOrange);
+}
+.sub-heading {
+    font-weight: 700;
+    font-size: 22px;
 }
