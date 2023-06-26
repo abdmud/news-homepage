@@ -89,3 +89,12 @@ ul {
     cursor: pointer;
     letter-spacing: 3px;
 }
+.cards {
+    margin-top: 40%;
+}
+.card {
+    border: solid 1px black;
+    display: flex;
+    width: 400px;
+    gap: 2%;
+}
