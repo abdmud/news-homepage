@@ -30,7 +30,14 @@ p {
     width: 40%;
 }
 .hamburger {
+    display: flex;
+    justify-content: end;
+    align-self: center;
     cursor: pointer;
+    border: black 1px solid;
+    height: 100%;
+}
+.hidden {
     display: none;
 }
 ul {
@@ -149,7 +156,7 @@ li:hover {
         width: 100%;
     }
     .col-grid {
-        margin-top: 5%;
+        margin-top: 10%;
         width: 90%;
         height: 450px;
     }
@@ -157,10 +164,18 @@ li:hover {
         display: flex;
         flex-direction: column;
     }
-    .nav-links {
-        display: none;
-    }
     .hero-title {
         width: 70%;
+    }
+    .card {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .number {
+        font-size: 36px;
+    }
+    .card-title {
+        font-size: 26px;
+        font-weight: 800;
     }
 }

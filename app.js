@@ -1,6 +1,13 @@
-const hamburger = document.querySelector("");
-const navLinks = document.querySelector("");
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
 
-function toggle() {
-
+function toggle() {    
+    if (window.innerWidth < 701) 
+    {
+        navLinks.classList.add('hidden');
+        hamburger.classList.remove('hidden');
+        console.log("non")
+    }
 }
+
+toggle();
