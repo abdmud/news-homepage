@@ -29,6 +29,10 @@ p {
 .nav-links {
     width: 40%;
 }
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
 ul {
     list-style: none;
 }
@@ -126,4 +130,37 @@ li:hover {
 }
 .number, .card-text p {
     color: var(--grayishBlue);
+}
+
+/**** MOBILE ***/
+@media only screen and (max-width: 700px) {
+    .container, .hero-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image, .hero-img {
+        width: 100%;
+    }
+    .grid {
+        width: auto;
+    }
+    .paragraph {
+        margin-top:  -7%;
+        width: 100%;
+    }
+    .col-grid {
+        margin-top: 5%;
+        width: 90%;
+        height: 450px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links {
+        display: none;
+    }
+    .hero-title {
+        width: 70%;
+    }
 }
