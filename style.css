@@ -73,10 +73,11 @@ ul {
     color: var(--grayishBlue);
 }
 .hero-title {
-    width: 40%;
+    width: 45%;
 }
 .hero-sub-title {
     font-size: 50px;
+    line-height: 100%;
 }
 .btn {
     display: flex;
@@ -100,4 +101,13 @@ ul {
     display: flex;
     width: 400px;
     gap: 2%;
+}
+.number {
+    font-size: 30px;
+}
+.card-title {
+    font-weight: 800;
+}
+.number, .card-text p {
+    color: var(--grayishBlue);
 }
