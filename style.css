@@ -191,4 +191,32 @@ li:hover {
         font-size: 26px;
         font-weight: 800;
     }
+    .menu-items {
+        background-color: white;
+        height: 100vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .close-div {
+        display: flex;
+        justify-content: end;
+        height: 20%;
+    }
+    .mobile-menu {
+        flex-direction: column;
+    }
+    .menu-list-div {
+        display: flex;
+        justify-content: space-around;
+        height: 80%;
+    }
+    .icon-menu-close {
+        width: 5%;
+        height: 15%;
+        cursor: pointer;
+    }
+    .hidden {
+        display: none;
+    }
 }
